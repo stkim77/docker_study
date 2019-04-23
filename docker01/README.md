@@ -1,4 +1,4 @@
-- Docker란 무엇인가?
+# Docker란 무엇인가?
 https://www.docker.com/resources/what-container
 
 https://docs.docker.com/get-started/
@@ -35,7 +35,6 @@ docker image ls
 docker container ls
 docker container ls --all
 docker container ls -aq
-
 
 ## 이미지 삭제
 docker container ls -a
