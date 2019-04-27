@@ -1,6 +1,8 @@
 FROM node:10
 
+WORKDIR /app
+COPY . /app
 
+ENV NAME=sample01
 
-RUN pwd
-RUN ls -al
+CMD ["node", "src/app.js"]
