@@ -1,0 +1,14 @@
+{
+  "name": "sample02",
+  "version": "1.0.0",
+  "description": "Simple Node Server",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node ./src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
